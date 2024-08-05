@@ -81,7 +81,7 @@ buildscript {
 
 ```diff
 // flutter_background_geolocation
-+Project background_geolocation = project(':flutter_background_geolocation')
++project background_geolocation = project(':flutter_background_geolocation')
 +apply from: "${background_geolocation.projectDir}/background_geolocation.gradle"
 
 android {
